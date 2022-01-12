@@ -411,7 +411,8 @@ header {
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: #000;
+    padding: 30px;
 }
 
 .section_team_area .sliders_pointers {
@@ -436,4 +437,191 @@ header {
     background-color: #b28756;
 }
 
+.section_team_avatar {
+    width: 130px;
+    height: auto;
+}
 
+.section_team_name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section_team_role {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.section_team_social {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section_team_social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.section_team_social a:hover {
+    background-color: #b28756;
+}
+
+/*
+    ÁREA CLIENTES FELIZES ↴
+*/
+
+
+section .section_avatar {
+    display: flex;
+    justify-content: center;
+}
+
+section .section_avatar img {
+    width: 140px;
+    height: auto;
+}
+
+section .section_name {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+section .section_role {
+    text-align: center;
+    font-weight:600;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+section .section_quote {
+    text-align: center;
+    padding-top: 30px;
+}
+
+section .section_text {
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 600px;
+    padding-top: 10px;
+    text-align: center;
+    color: #979797;
+}
+
+section .sliders_pointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+section .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+section .pointer.active {
+    background-color: #b28756;
+}
+
+/*
+    ÁREA LOGO EMPRESAS ↴
+*/
+
+section .section_companies {
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+section .section_company {
+    padding: 30px;
+}
+
+/*
+    ÁREA PREÇOS ↴
+*/
+
+.section_price_area .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+
+.section_price_area .slide {
+    width: 270px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.section_price_area .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 30px;
+}
+
+.section_price {
+    text-align: center;
+}
+.section_price_title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.section_price_rs {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.section_price_sub {
+    color:  #999;
+    padding-bottom: 15px;
+}
+
+.section_price_text {
+    padding: 5px;
+}
+
+section .button_price {
+    display: inline-block;
+    background-color: #2E2E2E;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.button_price:hover {
+    background-color: #b28756;
+}
