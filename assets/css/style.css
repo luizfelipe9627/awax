@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, Sans-serif;
     font-size: 13px;
     overflow-x: hidden;
+    flex-wrap: wrap;
 }
 
 /*
@@ -159,8 +160,8 @@ header {
 }
 
 .banner .pointer {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
@@ -373,7 +374,7 @@ header {
 */
 
 .team {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(/assets/images/cidade.jpg);
     background-position: center;
     background-size: cover;
     padding: 0;
@@ -424,8 +425,8 @@ header {
 }
 
 .section_team_area .pointer {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
@@ -527,8 +528,8 @@ section .sliders_pointers {
 }
 
 section .pointer {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
@@ -548,8 +549,8 @@ section .section_companies {
     display: flex;
     background-color: #FFF;
     justify-content: center;
-    border-top: 1px solid rgb(221, 221, 221);
-    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 
 section .section_company {
@@ -624,4 +625,113 @@ section .button_price {
 
 .button_price:hover {
     background-color: #b28756;
+}
+
+/*
+    ÁREA PLANO PREMIUM ↴
+*/
+
+section .light.premium {
+    background-color: #FFF;
+}
+
+.section_premium {
+    display: flex;
+}
+
+.section_premium_img {
+    padding-left: 150px;
+}
+
+.section_premium_img img {
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.section_premium_text {
+    max-width: 500px;
+ 
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.section_premium_title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.section_premium_title img {
+    margin-right: 20px;
+}
+
+.section_premium_sub, .section_premium_feature {
+    color: #979797;
+    margin-left: 54px;
+}
+
+.section_premium_feature {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.button_premium {
+    display: inline-block;
+    margin-left: 530px;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.border {
+    border-top: 1px solid #CCC;
+}
+
+/*
+    ÁREA FATOS↴
+*/
+
+.section_facts {
+    display: flex;
+}
+
+.section_fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section_fact h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.section_fact p {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #999;
+}
+
+.numbers {
+    color:#b28756;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.border_fact {
+    border-bottom: 3px solid #CCC;
+   margin-left: 116px;
+    width: 20px;
 }
