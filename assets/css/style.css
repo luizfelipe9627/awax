@@ -735,3 +735,131 @@ section .light.premium {
    margin-left: 116px;
     width: 20px;
 }
+
+/*
+    ÁREA SOBRE NÓS↴
+*/ 
+
+section .default.light.about {
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+    padding: 30px;
+}
+
+.redes_sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.redes_sociais a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 13px;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+.share {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+}
+
+.share img {
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: rgb(0, 183, 255);
+}
+
+.visit {
+    margin-left: 30px;
+    color: gray;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.linkedin {
+    background-color: #0f7cb4;
+}
+
+.facebook {
+    background-color: #336296;
+}
+
+.google_plus {
+    background-color: #e54338;
+    
+}
+
+.pinterest {
+    background-color: #b3122d;
+}
+
+/*
+    ÁREA CONTATE-NOS ↴
+*/ 
+
+.section_input {
+    display: flex;
+    justify-content: center;
+}
+
+.nome {
+    margin-right: 20px;
+    padding-right: 50px;
+}
+
+.email  {
+    padding-right: 60px;
+}
+
+input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #b6b6b6;
+    padding-bottom: 7px;
+    outline: none;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    color: #b6b6b6;
+   
+}
+
+.assunto {
+    padding-right: 307px;
+    padding-top: 40px;
+}
+
+.mensagem {
+    padding-right: 307px;
+    padding-top: 80px;
+}
+
+.button_message {
+    display: inline-block;
+    margin-left: 530px;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
