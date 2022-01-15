@@ -724,7 +724,7 @@ section .light.premium {
     color: #999;
 }
 
-.numbers {
+.section_numbers {
     color:#b28756;
     font-size: 40px;
     font-weight: bold;
@@ -863,3 +863,57 @@ input::placeholder {
     margin-top: 50px;
     border-radius: 20px;
 }
+
+/*
+    ÁREA MAPA ↴
+*/ 
+
+.section_map {
+    background-image: url(/assets/images/mapa.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin:  auto;
+}
+
+.section_map_area {
+    width: 100vw;
+    max-width: 1140px;
+    margin-left: 60px;
+}
+
+.section_map_info {
+    width: 40%;
+    padding: 30px;
+    background-color: #FFF;
+    color: black;
+}
+
+.section_map_info_item {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.section_map_info_item_img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.section_map_info_item_img img {
+    width: 18px;
+    height: auto;
+}
+
+/*
+    ÁREA RODAPÉ ↴
+*/ 
