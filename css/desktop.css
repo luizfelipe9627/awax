@@ -92,7 +92,7 @@ header {
 .banner {
     height: calc(100vh - 100px);
     background-color: #333;
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(/images/bg.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -374,7 +374,7 @@ header {
 */
 
 .team {
-    background-image: url(/assets/images/cidade.jpg);
+    background-image: url(/images/cidade.jpg);
     background-position: center;
     background-size: cover;
     padding: 0;
@@ -868,7 +868,7 @@ input::placeholder {
 */ 
 
 .section_map {
-    background-image: url(/assets/images/mapa.png);
+    background-image: url(/images/mapa.png);
     background-position: center;
     background-size: cover;
     padding-top: 30px;
