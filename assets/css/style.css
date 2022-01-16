@@ -481,36 +481,36 @@ header {
 */
 
 
-section .section_avatar {
+.section_avatar {
     display: flex;
     justify-content: center;
 }
 
-section .section_avatar img {
+.section_avatar img {
     width: 140px;
     height: auto;
 }
 
-section .section_name {
+.section_name {
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
     font-size: 16px;
 }
 
-section .section_role {
+.section_role {
     text-align: center;
     font-weight:600;
     padding-top: 5px;
     font-size: 14px;
 }
 
-section .section_quote {
+.section_quote {
     text-align: center;
     padding-top: 30px;
 }
 
-section .section_text {
+.section_text {
     flex-wrap: wrap;
     margin: auto;
     max-width: 600px;
@@ -519,7 +519,7 @@ section .section_text {
     color: #979797;
 }
 
-section .sliders_pointers {
+.sliders_pointers {
     height: 20px;
     display: flex;
     justify-content: center;
@@ -527,7 +527,7 @@ section .sliders_pointers {
     margin-top: 30px;
 }
 
-section .pointer {
+.pointer {
     width: 12px;
     height: 12px;
     border: 2px solid #b28756;
@@ -537,7 +537,7 @@ section .pointer {
     cursor: pointer;
 }
 
-section .pointer.active {
+.pointer.active {
     background-color: #b28756;
 }
 
@@ -545,7 +545,7 @@ section .pointer.active {
     ÁREA LOGO EMPRESAS ↴
 */
 
-section .section_companies {
+.section_companies {
     display: flex;
     background-color: #FFF;
     justify-content: center;
@@ -553,7 +553,7 @@ section .section_companies {
     border-bottom: 1px solid #CCC;
 }
 
-section .section_company {
+.section_company {
     padding: 30px;
 }
 
@@ -746,12 +746,12 @@ section .default.light.about {
     padding: 30px;
 }
 
-.redes_sociais{
+.section_social_media {
     display: flex;
     justify-content: center;
 }
 
-.redes_sociais a {
+.section_social_media a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -837,7 +837,6 @@ input {
 input::placeholder {
     text-transform: uppercase;
     color: #b6b6b6;
-   
 }
 
 .assunto {
@@ -880,7 +879,7 @@ input::placeholder {
 .section_map_area {
     width: 100vw;
     max-width: 1140px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .section_map_info {
@@ -917,3 +916,75 @@ input::placeholder {
 /*
     ÁREA RODAPÉ ↴
 */ 
+
+.default.dark.footer {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.section_social_media_footer {
+    display: flex;
+    padding-left: 100px;
+}
+
+.twitter_footer, .linkedin_footer, .facebook_footer, .google_plus_footer, .pinterest_footer, .web_footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 13px;
+    margin-left: 5px;
+    text-decoration: none;
+    background-color: #363636;
+}
+
+.section_social_media_footer a:hover {
+    background-color: #b28756;
+}
+
+.section_footer_copy {
+    color: #FFF;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.section_footer_text {
+    display: flex;
+    padding-left: 100px;
+    width: 40%;
+    color: #666666;
+    font-weight: 600;
+}
+
+.section_footer_email {
+    padding-bottom: 25px;
+}
+
+.section_footer_subscribe {
+    width: 300px;
+    height: 160px;
+    background-color: #373737;
+    padding: 40px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 2px;
+}
+
+.button_footer  {
+    display: inline-flex;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #b28756;
+}
+
+.section_footer_email input::placeholder {
+    text-align: center;
+}
+ 
