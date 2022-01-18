@@ -3,10 +3,24 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
         <link rel="stylesheet" href="/css/desktop.css">
         <link rel="stylesheet" href="/css/mobile.css">
         <link href="https:/fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
         <title>Awax</title>
+
+        <script type="text/javascript">
+            window.onload = function() {
+                document.querySelector(".menu_mobile"). addEventListener("click", function () {
+                    if(document.querySelector(".menu nav").style.display == 'flex') {
+                        document.querySelector(".menu nav").style.display = 'none';
+                    }   else {
+                        document.querySelector(".menu nav").style.display = 'flex';
+                    }
+                });
+            };
+        </script>  
+
     </head>
 
     <body>
@@ -17,6 +31,8 @@
                 </div>
 
                 <div class="menu">
+                    <img class="menu_mobile" src="/images/menu.png">
+
                     <nav>
                         <ul>
                             <li class="active"><a href="">Inicio</a></li>
@@ -505,17 +521,23 @@
                         </div>
 
                         <div class="section_premium_text">
-                            <div class="section_premium_title"><img src="/asset/images/check.png" alt="">Primeiro recurso</div>
-                            <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor elit lacus, et bibendum massa suscipit nec.</div>
-                            <div class="section_premium_feature">─ 1º Recurso</div>
-                            <div class="section_premium_feature">─ 2º Recurso </div>
-                            <div class="section_premium_feature">─ 3º Recurso </div>
+                            <div class="first_section_premium">
+                                <div class="section_premium_title"><img src="/images/check.png" alt="">Primeiro recurso</div>
+                                <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor elit lacus, et bibendum massa suscipit nec.</div>
+                                <div class="section_premium_feature">─ 1º Recurso</div>
+                                <div class="section_premium_feature">─ 2º Recurso </div>
+                                <div class="section_premium_feature">─ 3º Recurso </div>
+                            </div>
 
-                            <div class="section_premium_title"><img src="/asset/images/check.png" alt="">Segundo recurso</div>
-                            <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <div class="second_section_premium">
+                                <div class="section_premium_title"><img src="/images/check.png" alt="">Segundo recurso</div>
+                                <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
 
-                            <div class="section_premium_title"><img src="/asset/images/check.png" alt="">Terceiro recurso</div>
-                            <div class="section_premium_sub">Lorem ipsum dolor sit amet.</div>
+                            <div class="third_section_premium">
+                                <div class="section_premium_title"><img src="/images/check.png" alt="">Terceiro recurso</div>
+                                <div class="section_premium_sub">Lorem ipsum dolor sit amet.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -573,9 +595,9 @@
             <section>
                 <div class="default light about">
                     <div class="section_social_media">
-                        <div class="share"><img src="/asset/images/share.png">Sobre nós:</div>
+                        <div class="share"><img src="/images/share.png">Sobre nós:</div>
                         
-                        <a href="" class="twitter"><img src="/asset/images/twitter.png"></a>
+                        <a href="" class="twitter"><img src="/images/twitter.png"></a>
                         <div class="visit">152</div>
 
                         <a href="" class="linkedin"><img src="/images/linkedin.png"></a>
@@ -660,18 +682,29 @@
         <footer>
             <div class="default dark footer">
             
-                <div class="section_social_media_footer">
-                    <a href="" class="twitter_footer"><img src="/images/twitter.png"></a>
+                <div class="section_footer">
+                    <div class="section_social_media_footer">
 
-                    <a href="" class="linkedin_footer"><img src="/images/linkedin.png"></a>
+                        <div class="section_twitter">
+                            <a href="" class="twitter_footer"><img src="/images/twitter.png"></a>
+                        </div>
 
-                    <a href="" class="facebook_footer"><img src="/images/facebook.png"></a>
+                        <div class="section_linkedin">
+                            <a href="" class="linkedin_footer"><img src="/images/linkedin.png"></a>
+                        </div>
 
-                    <a href="" class="google_plus_footer"><img src="/images/googleplus.png"></a>
+                        <div class="section_facebook">
+                            <a href="" class="facebook_footer"><img src="/images/facebook.png"></a>
+                        </div>
 
-                    <a href="" class="pinterest_footer"><img src="/images/pinterest.png"></a>
+                        <div class="section_google_plus">
+                            <a href="" class="google_plus_footer"><img src="/images/googleplus.png"></a>
+                        </div>
 
-                    <a href="" class="web_footer"><img src="/images/web.png"></a>
+                        <div class="section_pinterest">
+                            <a href="" class="pinterest_footer"><img src="/images/pinterest.png"></a>
+                        </div>
+                    </div>
 
                     <div class="section_footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo sit amet malesuada posuere. In hac habitasse platea dictumst. Aliquam tempus at leo sit amet viverra. Phasellus rutrum enim imperdiet, semper nunc eu, accumsan enim. Mauris urna mi, congue non ex eget, condimentum placerat felis. Sed et condimentum ipsum. Nunc fringilla placerat odio quis interdum. Vestibulum porta, magna at suscipit posuere.</div>
 
@@ -679,7 +712,7 @@
                         <div class="section_footer_email">
                             <input type="email" class="subscribe" placeholder="Digite seu email">
                         </div>
-                        <a href="" class="button_footer">Inscrever-me</a>
+                        <a href="" class="button_footer">Inscrever se</a>
                     </div>
                 </div>
                 <div class="section_footer_copy">AWAX © 2016</div>

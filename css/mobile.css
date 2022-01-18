@@ -1,0 +1,203 @@
+/*
+    ÁREA RESPONSIVA TABLET ↴
+*/
+
+@media (min-width: 450px) and (max-width: 800px) { 
+    
+    /*
+        ÁREA MENU ↴
+    */
+
+    .logo {
+        margin-top: 14px;
+    }
+
+    .logo img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .menu_mobile {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0 , 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: none;
+    }
+
+    .menu li.active a {
+        border: none;
+        color: #b28756;
+    }
+
+    /*
+        ÁREA SOBRE NÓS ↴
+    */
+
+    .section_aboutus {
+        flex-direction: column;
+    }
+
+    .section_aboutus_left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section_aboutus_right {
+        width: auto;
+    }
+
+    .section_aboutus_left .button {
+       margin-left: 300px;
+    }
+
+    /*
+        ÁREA SERVIÇOS ↴
+    */
+
+    .section_services {
+        flex-wrap: wrap;
+    }
+
+    .section_service {
+        min-width: 50%;
+    }
+
+    /*
+        ÁREA NOSSO TIME ↴
+    */
+
+    .section_team {
+        max-width: 580px;
+    }
+
+    /*
+        ÁREA EMPRESAS ↴
+    */
+
+    .section_company {
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    /*
+        ÁREA PREÇOS ↴
+    */
+
+    .section_price_area .sliders {
+        max-width: 800px;
+        flex-wrap: wrap;
+        padding-left: 105px;
+    }
+
+    .section_price_area .slide {
+        margin-top: 30px;
+    }
+  
+    /*
+        ÁREA PREMIUM ↴
+    */
+
+    .section_premium {
+        flex-direction: column;
+    }
+
+    .section_premium_img {
+        padding-left: 120px;
+    }
+
+    .section_premium_text {
+        padding-left: 250px;
+    }
+
+    .button_premium {
+        margin-left: 280px;
+    }
+
+    /*
+        ÁREA ALGUNS FATOS ↴
+    */
+
+    .section_fact {
+        min-width: 50%;
+    }
+
+    .section_facts {
+        flex-wrap: wrap;
+    }
+
+    .border_fact {
+        margin-left: 165px;
+    }
+    
+    /*
+        ÁREA CONTATE-NOS ↴
+    */
+
+    .button_message {
+        margin-left: 280px;
+    }
+
+    /*
+        ÁREA MAPA↴
+    */
+
+    .section_map_info {
+        width: 90%;
+        padding: 30px;
+        margin-left: -60px;
+    }
+
+    /*
+        ÁREA FOOTER↴
+    */
+
+    .section_social_media_footer {
+        flex-direction: column;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .section_twitter, .section_linkedin, .section_facebook, .section_google_plus {
+        padding-bottom: 10px;
+    }
+
+    .section_footer_text {
+        min-width: 300px;
+    }
+
+    .section_footer_subscribe {
+        margin-left: 40px;
+        margin-right: 35px;
+        margin-top: 20px;
+    }
+
+    .section_footer_copy {
+        text-align: right;
+        margin-right: 115px;
+    }
+
+}

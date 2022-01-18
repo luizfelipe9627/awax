@@ -45,6 +45,10 @@ header {
     justify-content: flex-end;
 }
 
+.menu_mobile {
+    display: none;
+}
+
 .menu ul, .menu li {
     list-style: none;
 }
@@ -927,7 +931,7 @@ input::placeholder {
     padding-left: 100px;
 }
 
-.twitter_footer, .linkedin_footer, .facebook_footer, .google_plus_footer, .pinterest_footer, .web_footer {
+.twitter_footer, .linkedin_footer, .facebook_footer, .google_plus_footer, .pinterest_footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -943,6 +947,10 @@ input::placeholder {
     background-color: #b28756;
 }
 
+.section_footer {
+    display: flex;
+}
+
 .section_footer_copy {
     color: #FFF;
     font-weight: 600;
@@ -952,8 +960,7 @@ input::placeholder {
 
 .section_footer_text {
     display: flex;
-    padding-left: 100px;
-    width: 40%;
+    padding-left: 80px;
     color: #666666;
     font-weight: 600;
 }
@@ -968,8 +975,13 @@ input::placeholder {
     background-color: #373737;
     padding: 40px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-right: 30px;
     border-radius: 2px;
+}
+
+.subscribe {
+    color: white;
 }
 
 .button_footer  {
@@ -987,4 +999,6 @@ input::placeholder {
 .section_footer_email input::placeholder {
     text-align: center;
 }
+
+
  
