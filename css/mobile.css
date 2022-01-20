@@ -133,7 +133,7 @@
     }
 
     .button_premium {
-        margin-left: 280px;
+        margin-left: 290px;
     }
 
     /*
@@ -149,7 +149,7 @@
     }
 
     .border_fact {
-        margin-left: 165px;
+        margin-left: 161px;
     }
     
     /*
@@ -177,7 +177,7 @@
     .section_social_media_footer {
         flex-direction: column;
         padding-right: 10px;
-        padding-top: 20px;
+        padding-top: 15px;
         padding-left: 50px;
     }
 
@@ -287,7 +287,7 @@
     }
 
     .section_aboutus_left .button {
-       margin-left: 100px;
+       margin-left: 90px;
     }
 
     /*
@@ -386,6 +386,10 @@
         width: 250px;
         height: 250px;
         padding-top: 0;
+    }
+
+    .button_premium {
+        margin-left: 90px;
     }
 
     /*

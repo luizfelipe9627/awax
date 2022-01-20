@@ -592,12 +592,12 @@ header {
 .section_price {
     text-align: center;
 }
+
 .section_price_title {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     padding: 10px;
-    padding-top: 25px;
 }
 
 .section_price_rs {
