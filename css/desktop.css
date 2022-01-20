@@ -776,6 +776,10 @@ section .default.light.about {
     font-weight: 600;
 }
 
+.share2 {
+    display: none;
+}
+
 .share img {
     margin-right: 10px;
 }
@@ -784,11 +788,10 @@ section .default.light.about {
     background-color: rgb(0, 183, 255);
 }
 
-.visit {
-    margin-left: 30px;
+.section_aboutus_social_media .visit {
+    margin-left: 80px;
     color: gray;
-    margin-left: 6px;
-    margin-top: 5px;
+    margin-top: -20px;
     font-size: 11px;
     font-weight: 600;
 }
