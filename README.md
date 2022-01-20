@@ -4,8 +4,7 @@
 <img src="https://github.com/luizfelipe9627/awax/blob/master/images/awax.png" alt="Site">
 
 ## 📄 Resumo
-Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedabacks de outros clientes e como é uma empresa reconhecida no mercado de trabalho.
-
+Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedabacks de outros clientes, fatos sobre a empresa e como contratar serviços.
 
 ## <a href="https://luizfelipe9627.github.io/awax">Acesse o site</a>
 
