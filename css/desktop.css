@@ -685,7 +685,7 @@ section .light.premium {
 
 .button_premium {
     display: inline-block;
-    margin-left: 530px;
+    margin-left: 580px;
     background-color: #b28756;
     color: #FFF;
     text-transform: uppercase;
@@ -858,7 +858,7 @@ input::placeholder {
 
 .button_message {
     display: inline-block;
-    margin-left: 530px;
+    margin-left: 580px;
     background-color: #b28756;
     color: #FFF;
     text-transform: uppercase;
