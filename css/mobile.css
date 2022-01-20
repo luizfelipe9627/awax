@@ -132,10 +132,6 @@
         padding-left: 250px;
     }
 
-    .button_premium {
-        margin-left: 290px;
-    }
-
     /*
         ÁREA ALGUNS FATOS ↴
     */
@@ -259,8 +255,13 @@
     */
 
     .banner h1 {
-        font-size: 40px;
+        font-size: 38px;
     }
+
+    .banner h2 {
+        font-size: 17px;
+    }
+  
 
     /*
         ÁREA SOBRE NÓS ↴
@@ -276,6 +277,7 @@
         margin-bottom: 30px;
     }
 
+
     .section_aboutus_right {
         width: auto;
         margin-left: 30px;
@@ -286,9 +288,8 @@
         width: 100%;
     }
 
-    .section_aboutus_left .button {
-       margin-left: 90px;
-    }
+    
+
 
     /*
         ÁREA SERVIÇOS ↴
@@ -355,14 +356,22 @@
         padding-bottom: 20px;
     }
 
+    .section_companies {
+        padding-left: 35px;
+    }
+
     /*
         ÁREA PREÇOS ↴
     */
 
+    .section_price_area .section_body {
+        display: flex;
+        justify-content: center;
+    }
+
     .section_price_area .sliders {
         max-width: 300px;
         flex-wrap: wrap;
-        padding-left: 55px;
     }
 
     .section_price_area .slide {
@@ -373,13 +382,21 @@
         ÁREA PREMIUM ↴
     */
 
-    .section_premium {
-        flex-direction: column;
-        max-width: 300px;
+    .light.premium {
+        width: 100vw;
     }
 
-    .section_premium_img {
-        padding-left: 35px;
+    .section_premium {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_premium_geral {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .section_premium_img img {
@@ -388,10 +405,21 @@
         padding-top: 0;
     }
 
-    .button_premium {
-        margin-left: 90px;
+    .section_premium_img {
+        padding: 0;
     }
+    
 
+    .section_premium_sub, .section_premium_feature {
+        margin-right: 80px;
+        margin-left: 55px;
+    }
+    
+    .border {
+        padding-top: 30px;
+    }
+   
+   
     /*
         ÁREA ALGUNS FATOS ↴
     */
@@ -402,10 +430,6 @@
 
     .section_facts {
         flex-wrap: wrap;
-    }
-
-    .border_fact {
-        margin-left: 152px;
     }
 
     /*

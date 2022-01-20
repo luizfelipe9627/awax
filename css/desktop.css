@@ -241,6 +241,10 @@ header {
     line-height: 25px;
 }
 
+.section_aboutus_left .section_button {
+    align-items: center;
+}
+
 .section_aboutus_right {
     width: 500px;
     text-align: center;
@@ -614,7 +618,7 @@ header {
     padding: 5px;
 }
 
-section .button_price {
+.button_price {
     display: inline-block;
     background-color: #2E2E2E;
     color: #FFF;
@@ -635,7 +639,7 @@ section .button_price {
     ÁREA PLANO PREMIUM ↴
 */
 
-section .light.premium {
+.light.premium {
     background-color: #FFF;
 }
 
@@ -655,7 +659,6 @@ section .light.premium {
 
 .section_premium_text {
     max-width: 500px;
- 
     display: flex;
     flex-direction: column;
     padding-left: 50px;
@@ -683,23 +686,13 @@ section .light.premium {
     padding-top: 10px;
 }
 
-.button_premium {
-    display: inline-block;
-    margin-left: 580px;
-    background-color: #b28756;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-    margin-bottom: 50px;
+.section_button {
+    display: flex;
+    justify-content: center;
 }
 
 .border {
-    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 
 /*
@@ -708,12 +701,17 @@ section .light.premium {
 
 .section_facts {
     display: flex;
+
 }
 
 .section_fact {
     flex: 1;
     text-align: center;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section_fact h4 {
@@ -723,7 +721,7 @@ section .light.premium {
 }
 
 .section_fact p {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 13px;
     color: #999;
 }
@@ -736,7 +734,6 @@ section .light.premium {
 
 .border_fact {
     border-bottom: 3px solid #CCC;
-   margin-left: 116px;
     width: 20px;
 }
 
@@ -856,20 +853,6 @@ input::placeholder {
     padding-top: 80px;
 }
 
-.button_message {
-    display: inline-block;
-    margin-left: 580px;
-    background-color: #b28756;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 50px;
-    border-radius: 20px;
-}
-
 /*
     ÁREA MAPA ↴
 */ 
@@ -968,10 +951,6 @@ input::placeholder {
     font-weight: 600;
 }
 
-.section_footer_email {
-    padding-bottom: 25px;
-}
-
 .section_footer_subscribe {
     width: 300px;
     height: 160px;
@@ -985,18 +964,6 @@ input::placeholder {
 
 .subscribe {
     color: white;
-}
-
-.button_footer  {
-    display: inline-flex;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 20px;
-    background-color: #b28756;
 }
 
 .section_footer_email input::placeholder {
