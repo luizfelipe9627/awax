@@ -68,9 +68,10 @@
         width: auto;
     }
 
-    .section_aboutus_left .button {
-       margin-left: 300px;
+    .section_aboutus .section_button {
+        justify-content: center;
     }
+
 
     /*
         ÁREA SERVIÇOS ↴
@@ -97,7 +98,7 @@
     */
 
     .section_company {
-    padding: 15px;
+    padding: 50px;
     padding-top: 30px;
     padding-bottom: 20px;
     }
@@ -143,18 +144,7 @@
     .section_facts {
         flex-wrap: wrap;
     }
-
-    .border_fact {
-        margin-left: 161px;
-    }
     
-    /*
-        ÁREA CONTATE-NOS ↴
-    */
-
-    .button_message {
-        margin-left: 280px;
-    }
 
     /*
         ÁREA MAPA↴
@@ -288,8 +278,9 @@
         width: 100%;
     }
 
-    
-
+    .section_aboutus .section_button {
+        justify-content: center;
+    }
 
     /*
         ÁREA SERVIÇOS ↴
@@ -351,7 +342,8 @@
     */
 
     .section_company {
-        padding-left: 40px;
+        padding: 50px;
+        padding-left: 70px;
         padding-top: 30px;
         padding-bottom: 20px;
     }
@@ -367,6 +359,7 @@
     .section_price_area .section_body {
         display: flex;
         justify-content: center;
+        width: 100vw;
     }
 
     .section_price_area .sliders {
@@ -415,9 +408,6 @@
         margin-left: 55px;
     }
     
-    .border {
-        padding-top: 30px;
-    }
    
    
     /*
@@ -443,12 +433,10 @@
         padding-top: 20px;
     }
 
-    .section_social_media {
-        display: flex;
-        justify-content: center;
+    .section_social_media a:first-child {
+        margin-left: 20px;
     }
     
-
     .section_social_media a {
         display: inline-flex;
         justify-content: center;
@@ -456,19 +444,23 @@
         width: 27px;
         height: 27px;
         border-radius: 13px;
-        margin-left: 20px;
+        margin-right: 25px;
         text-decoration: none;
     }
     
 
     .section_social_media img {
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
     
+    .section_aboutus_share {
+        display: flex;
+        justify-content: center;
+    }
     .share2 {
         display: flex;
-        padding-left: 112px;
+        text-align: center;
         padding-bottom: 20px;
         text-transform: uppercase;
         font-size: 10px;
@@ -512,10 +504,6 @@
         margin-bottom: 0;
     }
 
-    .button_message {
-        margin-left: 90px;
-    }
-
     /*
         ÁREA MAPA↴
     */
@@ -539,6 +527,7 @@
     .default.dark.footer {
         padding-top: 30px;
         padding-bottom: 0px;
+        width: 100vw;
     }
 
     .section_social_media_footer {
@@ -562,20 +551,20 @@
         position: absolute;
         flex-wrap: wrap;
         margin-top: 250px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .section_footer_subscribe {
         position: absolute;
-        margin-left: 40px;
-        margin-right: 35px;
-        margin-top: 5px;
+        margin-left: 55px;
+        margin-top: 10px;
     }
 
     .section_footer_copy {
-        text-align: right;
-        margin-right: 130px;
+       display: flex;
+       justify-content: center;
+       padding-left: 0px;
     }
 
 }
