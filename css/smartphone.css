@@ -1,4 +1,4 @@
-@media (max-width: 750px){ 
+@media (min-width: 320px) and (max-width: 425px) { 
     
     /*
         ÁREA MENU ↴
@@ -51,7 +51,8 @@
     */
 
     .banner h1 {
-        font-size: 38px;
+        font-size: 33px;
+        text-align: center;
     }
 
     .banner h2 {
@@ -98,12 +99,9 @@
 
     .section_service {
         min-width: 100%;
+        text-align: center;
     }
 
-    .section_service h4, .section_service p {
-        max-width: 300px;
-        padding-left: 50px;
-    }
 
     /*
         ÁREA NOSSOS PROJETOS ↴
@@ -148,10 +146,7 @@
     */
 
     .section_company {
-        padding: 50px;
-        padding-left: 50px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding: 40px;
     }
 
     .section_companies {
@@ -169,7 +164,7 @@
     }
 
     .section_price_area .sliders {
-        max-width: 300px;
+        max-width: 270px;
         flex-wrap: wrap;
     }
 
@@ -213,7 +208,6 @@
         margin-right: 80px;
         margin-left: 55px;
     }
-    
    
    
     /*
@@ -240,7 +234,7 @@
     }
 
     .section_social_media a:first-child {
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     .section_social_media a {
@@ -250,14 +244,8 @@
         width: 27px;
         height: 27px;
         border-radius: 13px;
-        margin-right: 25px;
+        margin-right: 20px;
         text-decoration: none;
-    }
-    
-
-    .section_social_media img {
-        width: 15px;
-        height: 15px;
     }
     
     .section_aboutus_share {
@@ -287,7 +275,7 @@
         margin-top: 5px;
         font-size: 11px;
         font-weight: 600;
-        margin-left: 24px;
+        margin-left: 20px;
     }
     
     /*
@@ -331,9 +319,14 @@
     */
 
     .default.dark.footer {
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 0px;
         width: 100vw;
+    }
+
+    .section_footer {
+        display: flex;
+        flex-direction: column;
     }
 
     .section_social_media_footer {
@@ -342,34 +335,77 @@
         padding-right: 10px;
         padding-top: 200px;
         padding-bottom: 250px;
-    }
-
-    .section_twitter, .section_linkedin, .section_facebook, .section_google_plus {
-        margin-left: 10px;
-    }
-
-    .section_pinterest {
-        margin-left: 10px;
+        height: 100vw;
+        padding-left: 25%;
     }
 
     .section_footer_text {
         position: absolute;
         flex-wrap: wrap;
         margin-top: 250px;
-        padding-left: 60px;
         padding-right: 60px;
+        padding-left: 60px;
     }
 
     .section_footer_subscribe {
         position: absolute;
-        margin-left: 55px;
         margin-top: 10px;
+        margin-left: 0px;
+        width: 100vw;
     }
 
     .section_footer_copy {
        display: flex;
        justify-content: center;
        padding-left: 0px;
+       padding-top: 30vw;
     }
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    .section_social_media_footer {
+        padding-left: 20%;
+    }
+
+    .section_footer_subscribe {
+        margin-left: 30px;
+        width: 260px;
+     }
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    .section_social_media_footer {
+        padding-left: 27%;
+    }
+
+    .section_footer_copy {
+        padding-top: 10vw;
+    }
+
+    .section_footer_subscribe {
+        margin-left: 40px;
+        width: 300px;
+     }
+
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+.section_social_media_footer {
+    padding-left: 30%;
+}
+
+.section_footer_copy {
+    padding-top: 5vw;
+}
+
+.section_footer_subscribe {
+   margin-left: 50px;
+   width: 325px;
+}
 
 }
