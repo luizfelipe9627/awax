@@ -376,18 +376,18 @@
 
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 424px) {
 
     .section_social_media_footer {
-        padding-left: 27%;
+        padding-left: 26%;
     }
 
     .section_footer_copy {
-        padding-top: 10vw;
+        padding-top: 19vw;
     }
 
     .section_footer_subscribe {
-        margin-left: 40px;
+        margin-left: 10vw;
         width: 300px;
      }
 
