@@ -992,29 +992,7 @@ input::placeholder {
     */
 
     .menu li a {
-        font-size: 11px;
-    }
-
-    /*
-    ÁREA NOSSOS PROJETOS ↴
-    */
-
-    .button {
-        display: flex;
-    }
-    
-    /*
-    ÁREA PREÇOS ↴
-    */
-
-    .section_price_area .sliders {
-        max-width: 1000px;
-        flex-wrap: wrap;
-        padding-left: 23vw;
-    }
-
-    .section_price_area .slide {
-        margin-top: 30px;
+        font-size: 12px;
     }
 }
 
@@ -1352,13 +1330,10 @@ input::placeholder {
     }
 
     .section_social_media_footer {
-        display: flex;
-        flex-direction: row;
-        padding-right: 10px;
         padding-top: 200px;
         padding-bottom: 250px;
         height: 100vw;
-        padding-left: 25%;
+        padding-left: 27vw;
     }
 
     .section_footer_text {
@@ -1380,50 +1355,7 @@ input::placeholder {
        display: flex;
        justify-content: center;
        padding-left: 0px;
-       padding-top: 30vw;
-    }
-
-}
-
-@media (min-width: 320px) and (max-width: 374px) {
-    .section_social_media_footer {
-        padding-left: 20%;
-    }
-
-    .section_footer_subscribe {
-        margin-left: 30px;
-        width: 260px;
-     }
-
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
-    .section_social_media_footer {
-        padding-left: 26%;
-    }
-
-    .section_footer_copy {
-        padding-top: 19vw;
-    }
-
-    .section_footer_subscribe {
-        margin-left: 10vw;
-        width: 300px;
-     }
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-    .section_social_media_footer {
-        padding-left: 30%;
-    }
-
-    .section_footer_copy {
-        padding-top: 5vw;
-    }
-
-    .section_footer_subscribe {
-    margin-left: 50px;
-    width: 325px;
+       padding-top: 5vw;
     }
 }
 
@@ -1573,7 +1505,6 @@ input::placeholder {
         flex-wrap: wrap;
     }
     
-
     /*
         ÁREA MAPA↴
     */
@@ -1592,7 +1523,7 @@ input::placeholder {
         flex-direction: column;
         padding-right: 10px;
         padding-top: 17px;
-        padding-left: 50px;
+        padding-left: 20px;;
     }
 
     .section_twitter, .section_linkedin, .section_facebook, .section_google_plus {
