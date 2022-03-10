@@ -4,12 +4,16 @@
 <img src="https://github.com/luizfelipe9627/awax/blob/master/images/awax.png" alt="Site">
 
 ## 📄 Descrição
-Como segundo projeto foi proposto clonar um layout do zero. Foi práticado muito flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
-
-## 📑 Observação
 Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedabacks de outros clientes, fatos sobre a empresa e como contratar serviços.
 
 ### <a href="https://luizfelipe9627.github.io/awax">Acesse o site</a>
+
+## 📑 Observação
+Como segundo projeto foi proposto clonar um layout do zero. Foi práticado muito flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
+<br>
+Este layout foi criado por Alexandr Bukin.
+
+### <a href="https://dribbble.com/shots/3469501-FREE-PSD-Multipurpose-Landing-Page">Acesse o layout</a>
 
 ## 💻 Tecnologias utilizadas
 
