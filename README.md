@@ -10,7 +10,8 @@ Awax é um site de serviços na qual o cliente conhecerá a equipe, principais p
 
 ## 📑 Observação
 Como segundo projeto foi proposto clonar um layout do zero. Foi práticado muito flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
-<br>
+
+## 🔍 Layout
 Este layout foi criado por Alexandr Bukin.
 
 ### <a href="https://dribbble.com/shots/3469501-FREE-PSD-Multipurpose-Landing-Page">Acesse o layout</a>
