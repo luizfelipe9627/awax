@@ -1,7 +1,7 @@
 # Awax
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/awax/blob/master/images/awax.png" alt="Site">
+<img src="https://github.com/luizfelipe9627/awax/blob/master/assets/videos/awax.gif" alt="Site">
 
 ## 📄 Descrição
 Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedabacks de outros clientes, fatos sobre a empresa e como contratar serviços.
