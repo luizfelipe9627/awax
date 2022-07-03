@@ -36,7 +36,7 @@ input::placeholder {
 }
 
 .section_map {
-  background-image: url(../image/mapa.png);
+  background-image: url("../image/mapa.webp");
   background-position: center;
   background-size: cover;
   padding: 1.875rem 0 1.875rem 0;
