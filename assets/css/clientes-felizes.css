@@ -1,0 +1,64 @@
+.section_avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.section_avatar img {
+  width: 8.75rem;
+  height: auto;
+}
+
+.section_name {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1.875rem;
+  font-size: 1rem;
+}
+
+.section_role {
+  text-align: center;
+  font-weight:600;
+  padding-top: 0.3125rem;
+  font-size: 0.875rem;
+}
+
+.section_quote {
+  text-align: center;
+  padding-top: 1.875rem;
+}
+
+.section_text {
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 37.5rem;
+  padding-top: 0.625rem;
+  text-align: center;
+  color: #979797;
+}
+
+.sliders_pointers {
+  height: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.875rem;
+}
+
+.pointer {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 0.125rem solid #b28756;
+  border-radius: 0.5rem;
+  margin: 0 0.3125rem 0 0.3125rem;
+  cursor: pointer;
+}
+
+.pointer.active {
+  background-color: #b28756;
+}
+
+@media (min-width: 320px) and (max-width: 425px) { 
+  .section_text {
+    max-width: 18.75rem;
+  }
+}

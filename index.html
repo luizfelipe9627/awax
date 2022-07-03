@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=0">
-        <link rel="stylesheet" href="/css/style.css">
-        <link href="https://luizfelipe9627.github.io/awax/css/style.css" rel="stylesheet"/> 
-        <link href="https:/fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <title>Awax</title>
     </head>
 
@@ -14,23 +14,23 @@
         <header>
             <div class="header">
                 <div class="logo">
-                    <img src="https://luizfelipe9627.github.io/awax/assets/icons/logo.png">
+                    <img src="./assets/image/logo.png" alt="Logo awax" width="145" height="145">
                 </div>
 
                 <div class="menu">
-                    <img class="menu_mobile" src="https://luizfelipe9627.github.io/awax/assets/icons/menu.png">
+                    <img class="menu_mobile" src="./assets/image/menu.png" alt="Menu burguer" width="30" height="30">
 
                     <nav>
                         <ul>
-                            <li class="active"><a href="">Inicio</a></li>
-                            <li><a href="">Sobre nós</a></li>
-                            <li><a href="">Serviços</a></li>
-                            <li><a href="">Nossos projetos</a></li>
-                            <li><a href="">Nosssa equipe</a></li>
-                            <li><a href="">Clientes felizes</a></li>
-                            <li><a href="">Preços</a></li>
-                            <li><a href="">Alguns fatos</a></li>
-                            <li><a href="">Contate-nos</a></li>
+                            <li class="active"><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobre-nos">Sobre nós</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#nossos-projetos">Nossos projetos</a></li>
+                            <li><a href="#nossa-equipe">Nossa equipe</a></li>
+                            <li><a href="#clientes-felizes">Clientes felizes</a></li>
+                            <li><a href="#precos">Preços</a></li>
+                            <li><a href="#alguns-fatos">Alguns fatos</a></li>
+                            <li><a href="#contate-nos">Contate-nos</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,25 +38,29 @@
         </header>
         
         <main>
-            <section class="banner">
+            <section class="banner" aria-label="Inicio">
                 <div class="sliders" style="margin-left:  -0vw;">
                     <div class="slide">
                         <div class="slidearea">
                             <h1>Design é sobre<br><span>comunicação</span></h1>
                             <h2>Ligue para nós: +00 0 1234 5678</h2>
-                            <a href="" class="button">Entrar em contato</a>
+                            <a href="#entrar-em-contato" class="button">Entrar em contato</a>
                         </div>
-                    </div><div class="slide">
+                    </div>
+                    
+                    <div class="slide">
                         <div class="slidearea">
                             <h1>Design é sobre<br><span>criatividade</span></h1>
                             <h2>Ligue para nós: +00 0 1234 5678</h2>
-                            <a href="" class="button">Entrar em contato</a>
+                            <a href="#entrar-em-contato" class="button">Entrar em contato</a>
                         </div>
-                    </div><div class="slide">
+                    </div>
+                    
+                    <div class="slide">
                         <div class="slidearea">
                             <h1>Design é sobre<br><span>paciência</span></h1>
                             <h2>Ligue para nós: +00 0 1234 5678</h2>
-                            <a href="" class="button">Entrar em contato</a>
+                            <a href="#entrar-em-contato" class="button">Entrar em contato</a>
                         </div>
                     </div>
                 </div>
@@ -68,55 +72,64 @@
                 </div>
             </section>
         
-            <section>
+            <section id="sobre-nos" aria-label="Sobre nós">
                 <div class="default light">
-                    <div class="section_title">Sobre Nós</div>
-                    <div class="section_desc">Quem nós somos?</div>
+                    <div class="section_title">
+                        Sobre Nós
+                    </div>
+
+                    <div class="section_desc">
+                        Quem nós somos?
+                    </div>
+
                     <div class="section_body">
                         <div class="section_aboutus">
                             <div class="section_aboutus_left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque, odio non eleifend tincidunt, ex mi dictum purus, vel porta lectus ligula sit amet eros. Donec dolor orci, fermentum sed tincidunt quis, accumsan nec massa. Sed ipsum est, molestie id urna vel, venenatis imperdiet magna. Mauris pharetra, urna in blandit mollis, elit mauris accumsan lacus, eget vulputate diam orci at neque. Sed eget velit diam. Integer vehicula condimentum erat, a tincidunt metus finibus sit amet. Cras elementum eget sapien sed scelerisque. Sed luctus elit non ex suscipit, a iaculis mauris feugiat. Aliquam at nibh quam. Nulla facilisi. Nunc efficitur commodo massa sit amet facilisis.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque, odio non eleifend tincidunt, ex mi dictum purus, vel porta lectus ligula sit amet eros. Donec dolor orci, fermentum sed tincidunt quis, accumsan nec massa. Sed ipsum est, molestie id urna vel, venenatis imperdiet magna. Mauris pharetra, urna in blandit mollis, elit mauris accumsan lacus, eget vulputate diam orci at neque. Sed eget velit diam. Integer vehicula condimentum erat, a tincidunt metus finibus sit amet. Cras elementum eget sapien sed scelerisque. Sed luctus elit non ex suscipit, a iaculis mauris feugiat. Aliquam at nibh quam. Nulla facilisi. Nunc efficitur commodo massa sit amet facilisis.
+                                </p>
+
                                 <br>
 
                                 <div class="section_button">
-                                    <a href="" class="button">Leia mais</a>
+                                    <a href="#leia-mais" class="button">Leia mais</a>
                                 </div>
-
                             </div>
+
                             <div class="section_aboutus_right">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/images/foto4.jpg">
+                                <img src="./assets/image/foto4.jpg" alt="Pessoas mexendo no computador" width="480" height="300">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section id="servicos" aria-label="Serviços">
                 <div class="default dark">
                     <div class="section_title">Serviços</div>
                     <div class="section_desc">Serviços que oferecemos</div>
                     <div class="section_body">
                         <div class="section_services">
                             <div class="section_service">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/medalha.png">
+                                <img src="./assets/image/medalha.png" alt="Medalha" width="65" height="65">
                                 <h4>Design de alta qualidade</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
 
                             <div class="section_service">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/estrela.png">
+                                <img src="./assets/image/estrela.png" alt="Estrela" width="65" height="65">
                                 <h4>Design moderno</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
 
                             <div class="section_service">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/relogio.png">
+                                <img src="./assets/image/relogio.png" alt="Relógio" width="65" height="65">
                                 <h4>Atualizações regulares</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
 
                             <div class="section_service">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/balao.png">
+                                <img src="./assets/image/balao.png" alt="Balão" width="65" height="65">
                                 <h4>Suporte rápido e gratuito</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
@@ -125,7 +138,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="nossos-projetos" aria-label="Nossos projetos">
                 <div class="default light">
                     <div class="section_title">Nossos projetos</div>
                     <div class="section_desc">O que nós criamos</div>
@@ -149,7 +162,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                         <img src="https://luizfelipe9627.github.io/awax/assets/images/foto1.jpg">
+
+                                        <img src="./assets/image/foto1.jpg" alt="Folhas verde em volta de um quadrado branco" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -159,7 +173,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto2.jpg">
+
+                                        <img src="./assets/image/foto2.jpg" alt="Uma cafeteria com o fundo desfocado" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -169,7 +184,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto3.jpg">
+
+                                        <img src="./assets/image/foto3.jpg" alt="Café em pó e em semente" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -179,7 +195,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto9.jpg">
+
+                                        <img src="./assets/image/foto9.jpg" alt="Mulher no gramado jogando futebol" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -189,7 +206,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto5.jpg">
+
+                                        <img src="./assets/image/foto5.jpg" alt="Paisagem em cima de uma montanha" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -199,7 +217,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto6.jpg">
+
+                                        <img src="./assets/image/foto6.jpg" alt="Apresentação de trabalho" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -209,7 +228,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto1.jpg">
+
+                                        <img src="./assets/image/foto1.jpg" alt="Folhas verde em volta de um quadrado branco" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -219,7 +239,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto2.jpg">
+
+                                        <img src="./assets/image/foto2.jpg" alt="Uma cafeteria com o fundo desfocado" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -229,7 +250,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto3.jpg">
+
+                                        <img src="./assets/image/foto3.jpg" alt="Café em pó e em semente" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -239,7 +261,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto9.jpg">
+
+                                        <img src="./assets/image/foto9.jpg" alt="Mulher no gramado jogando futebol" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -249,7 +272,8 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto5.jpg">
+
+                                        <img src="./assets/image/foto5.jpg" alt="Paisagem em cima de uma montanha" width="260" height="160">
                                     </div>
                                 </div>
 
@@ -259,17 +283,19 @@
                                             <h5>Sobre</h5>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div>
-                                        <img src="https://luizfelipe9627.github.io/awax/assets/images/foto6.jpg">
+
+                                        <img src="./assets/image/foto6.jpg" alt="Apresentação de trabalho" width="260" height="160">
                                     </div>
                                 </div>
                             </div>
-                            <a href="" class="button">Mais projetos</a>
+
+                            <a href="#mais-projetos" class="button">Mais projetos</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section id="nossa-equipe" aria-label="Nossa equipe">
                 <div class="default dark team">
                     <div class="section_team_area">
                         <div class="section_title">Nosso time</div>
@@ -280,67 +306,99 @@
                                 <div class="sliders">
                                     <div class="slide">
                                         <div class="slidearea">
-                                            <img  class="section_team_avatar" src="https://luizfelipe9627.github.io/awax/assets/icons/mulher1.png">
+                                            <img  class="section_team_avatar" src="./assets/image/mulher1.png" alt="Foto da Jane Doe" width="130" height="130">
+
                                             <div class="section_team_name">Jane Doe</div>
                                             <div class="section_team_role">Mente mestra</div>
-                                            <div class="section_team_social">
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/twitter.png">
-                                                    
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/linkedin.png"></a>
-    
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/facebook.png"></a>
 
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/googleplus.png"></a>
-                                            
-                                              
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/pinterest.png"></a>
-                                                
-                                            </div></a>
+                                            <div class="section_team_social">
+                                                <a href="#twitter">
+                                                    <img src="./assets/image/twitter.png" alt="Twitter" width="15" height="12">
+                                                </a>
+
+                                                <a href="#linkedin">
+                                                    <img src="./assets/image/linkedin.png" alt="Linkedin" width="14" height="13">
+                                                </a>
+
+                                                <a href="#facebook">
+                                                    <img src="./assets/image/facebook.png" alt="Facebook" width="8" height="16">
+                                                </a>
+
+                                                <a href="#google-plus">
+                                                    <img src="./assets/image/google-plus.png"  alt="Google plus" width="17" height="15">
+                                                </a>
+
+                                                <a href="#pinterest" alt="Pinterest">
+                                                    <img src="./assets/image/pinterest.png" alt="Pinterest" width="13" height="16">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                     
                                     <div class="slide">
                                         <div class="slidearea">
-                                            <img  class="section_team_avatar" src="https://luizfelipe9627.github.io/awax/assets/icons/homem1.png">
+                                            <img  class="section_team_avatar" src="./assets/image/homem1.png"  alt="Foto do Mike Shiller" width="130" height="130">
+
                                             <div class="section_team_name">Mike Shiller</div>
                                             <div class="section_team_role">Cabeça criativa</div>
-                                            <div class="section_team_social">
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/twitter.png">
-                                                    
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/linkedin.png"></a>
-    
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/facebook.png"></a>
 
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/googleplus.png"></a>
-                                            
-                                              
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/pinterest.png"></a>
-                                            </div></a>
+                                            <div class="section_team_social">
+                                                <a href="#twitter">
+                                                    <img src="./assets/image/twitter.png" alt="Twitter" width="15" height="12">
+                                                </a>
+
+                                                <a href="#linkedin">
+                                                    <img src="./assets/image/linkedin.png" alt="Linkedin" width="14" height="13">
+                                                </a>
+
+                                                <a href="#facebook">
+                                                    <img src="./assets/image/facebook.png" alt="Facebook" width="8" height="16">
+                                                </a>
+
+                                                <a href="#google-plus">
+                                                    <img src="./assets/image/google-plus.png"  alt="Google plus" width="17" height="15">
+                                                </a>
+
+                                                <a href="#pinterest" alt="Pinterest">
+                                                    <img src="./assets/image/pinterest.png" alt="Pinterest" width="13" height="16">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                     
                                     <div class="slide">
                                         <div class="slidearea">
-                                            <img  class="section_team_avatar" src="https://luizfelipe9627.github.io/awax/assets/icons/mulher2.png">
+                                            <img  class="section_team_avatar" src="./assets/image/mulher2.png" alt="Foto da Anna Johns" width="130" height="130">
+
                                             <div class="section_team_name">Anna Johns</div>
                                             <div class="section_team_role">Líder técnico</div>
+
                                             <div class="section_team_social">
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/twitter.png">
+                                                <a href="#twitter">
+                                                    <img src="./assets/image/twitter.png" alt="Twitter" width="15" height="12">
+                                                </a>
 
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/linkedin.png"></a>
-    
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/facebook.png"></a>
+                                                <a href="#linkedin">
+                                                    <img src="./assets/image/linkedin.png" alt="Linkedin" width="14" height="13">
+                                                </a>
 
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/googleplus.png"></a>
-                                            
-                                              
-                                                <a href=""><img src="https://luizfelipe9627.github.io/awax/assets/icons/pinterest.png"></a>
-                                                
-                                            </div></a>
+                                                <a href="#facebook">
+                                                    <img src="./assets/image/facebook.png" alt="Facebook" width="8" height="16">
+                                                </a>
+
+                                                <a href="#google-plus">
+                                                    <img src="./assets/image/google-plus.png"  alt="Google plus" width="17" height="15">
+                                                </a>
+
+                                                <a href="#pinterest" alt="Pinterest">
+                                                    <img src="./assets/image/pinterest.png" alt="Pinterest" width="13" height="16">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="sliders_pointers">
                                 <div class="pointer active"></div>
                                 <div class="pointer"></div>
@@ -351,15 +409,25 @@
                 </div>
             </section>
 
-            <section>
+            <section id="clientes-felizes" aria-label="Avalização dos clientes">
                 <div class="default light">
                     <div class="section_title">Clientes felizes</div>
                     <div class="section_desc">Avaliação dos clientes</div>
-                    <div class="section_avatar"><img src="https://luizfelipe9627.github.io/awax/assets/icons/homem2.png"></div>
+
+                    <div class="section_avatar">
+                        <img src="./assets/image/homem2.png" alt="Foto do John Doe" width="140" height="140">
+                    </div>
+
                     <div class="section_name">John Doe</div>
                     <div class="section_role">Chefe de Departamento</div>
-                    <div class="section_quote"><img src="https://luizfelipe9627.github.io/awax/assets/icons/quote.png"></div>
-                    <div class="section_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lacus vitae leo molestie consequat morbi aliquet, lectus id lacinia dictum, est libero molestie justo, condimentum maximus ex libero ac lacus. </div>
+
+                    <div class="section_quote">
+                        <img src="./assets/image/quote.png" alt="Aspas" width="27" height="20">
+                    </div>
+
+                    <div class="section_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lacus vitae leo molestie consequat morbi aliquet, lectus id lacinia dictum, est libero molestie justo, condimentum maximus ex libero ac lacus.
+                    </div>
 
                     <div class="sliders_pointers">
                         <div class="pointer active"></div>
@@ -369,39 +437,40 @@
                 </div>
             </section>
 
-            <section>
+            <section aria-label="Empresas apoiadoras">
                     <div class="section_companies">
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa1.png"></div>
-                        </a>
+                        <div class="section_company">
+                            <a href="#graphic"><img src="./assets/image/empresa1.png" alt="Graphic" width="86" height="59"></a>
+                        </div>
+                        
+                        <div class="section_company">
+                            <a href="#unique"><img src="./assets/image/empresa2.png" alt="Unique" width="82" height="59"></a>
+                        </div>
 
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa2.png"></div>
-                        </a>
+                        <div class="section_company">
+                            <a href="#fairtrade"><img src="./assets/image/empresa3.png" alt="FairTrade" width="110" height="36"></a>
+                        </div>
 
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa3.png"></div>
-                        </a>
+                        <div class="section_company">
+                            <a href="#unique-2"><img src="./assets/image/empresa4.png" alt="Unique 2" width="95" height="54"></a>
+                        </div>
 
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa4.png"></div>
-                        </a>
-
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa5.png"></div>
-                        </a>
+                        <div class="section_company">
+                            <a href="#premium-coffee"><img src="./assets/image/empresa5.png" alt="Premium Coffee" width="98" height="52"></a>
+                        </div>
                     
-                        <a href="">
-                            <div class="section_company"><img src="https://luizfelipe9627.github.io/awax/assets/icons/empresa6.png"></div>
-                        </a>
+                        <div class="section_company">
+                            <a href="#modern-arts"><img src="./assets/image/empresa6.png" alt="Modern Arts" width="104" height="39"></a>
+                        </div>
                     </div>
             </section>
 
-            <section>
+            <section id="precos" aria-label="Tabela de preços">
                 <div class="default light">
                     <div class="section_price_area">
                         <div class="section_title">Preços</div>
                         <div class="section_desc">Tabela de preços</div>
+
                         <div class="section_body"> 
                         <div class="sliders">
                                 <div class="slide">
@@ -420,7 +489,7 @@
                                             <div class="section_price_trace">...</div>
                                             <div class="section_price_text">Lorem ipsum dolor sit amet.</div>
 
-                                            <a href="">
+                                            <a href="#escolher">
                                                 <div class="button_price">Escolher</div>
                                             </a>
                                         </div>
@@ -443,7 +512,7 @@
                                             <div class="section_price_trace">...</div>
                                             <div class="section_price_text">Lorem ipsum dolor sit amet.</div>
 
-                                            <a href="">
+                                            <a href="#escolher">
                                                 <div class="button_price">Escolher</div>
                                             </a>
                                         </div>
@@ -466,7 +535,7 @@
                                             <div class="section_price_trace">...</div>
                                             <div class="section_price_text">Lorem ipsum dolor sit amet.</div>
 
-                                            <a href="">
+                                            <a href="#escolher">
                                                 <div class="button_price">Escolher</div>
                                             </a>
                                         </div>
@@ -489,7 +558,7 @@
                                             <div class="section_price_trace">...</div>
                                             <div class="section_price_text">Lorem ipsum dolor sit amet.</div>
 
-                                            <a href="">
+                                            <a href="#escolher">
                                                 <div class="button_price">Escolher</div>
                                             </a>
                                         </div>
@@ -501,7 +570,7 @@
                 </div>
             </section>
 
-            <section>
+            <section aria-label="Plano premium">
                 <div class="default light premium">
                     <div class="section_title">Premium</div>
                     <div class="section_desc">Ainda mais recursos disponíveis</div>
@@ -509,26 +578,47 @@
                     <div class="section_premium_geral">
                         <div class="section_premium">
                             <div class="section_premium_img">
-                                <div class="section_premium_img"><img src="https://luizfelipe9627.github.io/awax/assets/icons/livros.png" alt=""></div>
+                                <div class="section_premium_img">
+                                    <img src="./assets/image/livros.png" alt="The box" width="300" height="300">
+                                </div>
                             </div>
 
                             <div class="section_premium_text">
                                 <div class="first_section_premium">
-                                    <div class="section_premium_title"><img src="https://luizfelipe9627.github.io/awax/assets/icons/check.png" alt="">Primeiro recurso</div>
-                                    <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor elit lacus, et bibendum massa suscipit nec.</div>
+                                    <div class="section_premium_title">
+                                        <img src="./assets/image/check.png" alt="Check" width="34" height="30">
+                                        
+                                        Primeiro recurso
+                                    </div>
+
+                                    <div class="section_premium_sub">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor elit lacus, et bibendum massa suscipit nec.
+                                    </div>
+
                                     <div class="section_premium_feature">─ 1º Recurso</div>
                                     <div class="section_premium_feature">─ 2º Recurso </div>
                                     <div class="section_premium_feature">─ 3º Recurso </div>
                                 </div>
 
                                 <div class="second_section_premium">
-                                    <div class="section_premium_title"><img src="https://luizfelipe9627.github.io/awax/assets/icons/check.png" alt="">Segundo recurso</div>
-                                    <div class="section_premium_sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div class="section_premium_title">
+                                        <img src="./assets/image/check.png"  alt="Check" width="34" height="30">Segundo recurso
+                                    </div>
+
+                                    <div class="section_premium_sub">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </div>
                                 </div>
 
                                 <div class="third_section_premium">
-                                    <div class="section_premium_title"><img src="https://luizfelipe9627.github.io/awax/assets/icons/check.png" alt="">Terceiro recurso</div>
-                                    <div class="section_premium_sub">Lorem ipsum dolor sit amet.</div>
+                                    <div class="section_premium_title">
+                                        <img src="./assets/image/check.png"  alt="Check" width="34" height="30">
+                                        Terceiro recurso
+                                    </div>
+
+                                    <div class="section_premium_sub">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -543,22 +633,21 @@
                     </div>
 
                     <div class="section_button">
-                        <a href="" class="button">Entrar em contato</a>
+                        <a href="#entrar-em-contato" class="button">Entrar em contato</a>
                     </div>
-        
                 </div>
             </section>
 
-            <section>
+            <section id="alguns-fatos" aria-label="Alguns fatos sobre nós">
                 <div class="default dark">
                     <div class="section_title">Alguns fatos</div>
                     <div class="section_desc">Sobre nosso trabalho</div>
                     <div class="section_body">
                         <div class="section_facts">
-
                             <div class="section_fact">
                                 <div class="section_numbers">1000</div>
                                 <div class="border_fact"></div>
+
                                 <h4>Projetos lançados</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
@@ -566,6 +655,7 @@
                             <div class="section_fact">
                                 <div class="section_numbers">900</div>
                                 <div class="border_fact"></div>
+
                                 <h4>Fotos</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
@@ -573,15 +663,15 @@
                             <div class="section_fact">
                                 <div class="section_numbers">500</div>
                                 <div class="border_fact"></div>
+
                                 <h4>Ideias de marketing</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
 
                             <div class="section_fact">
                                 <div class="section_numbers">100</div>
-                                <div class="section_border">
-                                    <div class="border_fact"></div>
-                                </div>
+                                <div class="border_fact"></div>
+                                
                                 <h4>Exposições</h4>
                                 <p>Present metus urna, feugiata placerat elementum</p>
                             </div>
@@ -590,48 +680,66 @@
                 </div>
             </section>
 
-            <section>
+            <section aria-label="Nossas redes sociais">
                 <div class="default light about">
+                    <div class="section_aboutus_share ">
+                        <div class="share2">
+                            Sobre nós:
+                        </div>
+                    </div>
                     
-                    <div class="section_aboutus_share "><div class="share2">Sobre nós:</div></div>
-                    
-
                     <div class="section_social_media">
-
                         <div class="section_share">
-                            <div class="share"><img src="https://luizfelipe9627.github.io/awax/assets/icons/share.png">Sobre nós:</div>
+                            <div class="share">
+                                <img src="./assets/image/share.png" alt="Compartilhamento" width="23" height="25">
+                                Sobre nós:
+                            </div>
                         </div>
                         
                         <div class="section_aboutus_social_media">
-                            <a href="" class="twitter"><img src="https://luizfelipe9627.github.io/awax/assets/icons/twitter.png"></a>
+                            <a href="#twitter" class="twitter">
+                                <img src="./assets/image/twitter.png" alt="Twitter" width="15" height="12">
+                            </a>
+
                             <div class="visit">152</div>
                         </div>
 
                         <div class="section_aboutus_social_media">
-                            <a href="" class="linkedin"><img src="https://luizfelipe9627.github.io/awax/assets/icons/linkedin.png"></a>
+                            <a href="#linkedin" class="linkedin">
+                                <img src="./assets/image/linkedin.png" alt="Linkedin"  width="14" height="13">
+                            </a>
+
                             <div class="visit">128</div>
                         </div>
 
                         <div class="section_aboutus_social_media">
-                            <a href="" class="facebook"><img src="https://luizfelipe9627.github.io/awax/assets/icons/facebook.png"></a>
+                            <a href="#facebook" class="facebook">
+                                <img src="./assets/image/facebook.png" alt="Facebook"  width="8" height="16">
+                            </a>
+
                             <div class="visit">165</div>
                         </div>
 
                         <div class="section_aboutus_social_media">
-                            <a href="" class="google_plus"><img src="https://luizfelipe9627.github.io/awax/assets/icons/googleplus.png"></a>
+                            <a href="#google-plus" class="google_plus">
+                                <img src="./assets/image/google-plus.png" alt="Google plus"  width="17" height="15">
+                            </a>
+
                             <div class="visit">102</div>
                         </div>
 
                         <div class="section_aboutus_social_media">
-                            <a href="" class="pinterest"><img src="https://luizfelipe9627.github.io/awax/assets/icons/pinterest.png"></a>
+                            <a href="#pinterest" class="pinterest">
+                                <img src="./assets/image/pinterest.png" alt="Pinterest"  width="13" height="16">
+                            </a>
+
                             <div class="visit">165</div>
                         </div>
-
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section id="contate-nos" aria-label="Contate-nos">
                 <div class="default light">
                     <div class="section_title">Contate-nos</div>
                     <div class="section_desc">Nossa agência está localizada em Melbourne, Australia</div>
@@ -650,45 +758,45 @@
                     </div>
 
                     <div class="section_button">
-                        <a href="" class="button">Enviar mensagem</a>
+                        <a href="#enviar-mensagem" class="button">Enviar mensagem</a>
                     </div>
                 </div>
             </section>
 
-            <section class="section_map">
+            <section class="section_map" aria-label="Nossa localização">
                 <div class="section_map_area">
                     <div class="section_map_info">
                         <div class="section_map_info_item">
                             <div class="section_map_info_item_img">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/carta.png">
+                                <img src="./assets/image/carta.png" alt="Carta" width="18" height="11">
                             </div>
                             PO Box 16122 Collins Street West Victoria 8007 Australia
                         </div>
 
                         <div class="section_map_info_item">
                             <div class="section_map_info_item_img">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/localizacao.png">
+                                <img src="./assets/image/localizacao.png" alt="Localização" width="18" height="24">
                             </div>
                             121 King Street Melbourne Victoria 3000 Australia
                         </div>
 
                         <div class="section_map_info_item">
                             <div class="section_map_info_item_img">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/telefone.png">
+                                <img src="./assets/image/telefone.png" alt="Telefone" width="18" height="17">
                             </div>
                             +00 0 1234 5678
                         </div>
 
                         <div class="section_map_info_item">
                             <div class="section_map_info_item_img">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/arroba.png">
+                                <img src="./assets/image/arroba.png" alt="Arroba" width="18" height="19">
                             </div>
                             awaxdesign@gmail.com
                         </div>
 
                         <div class="section_map_info_item">
                             <div class="section_map_info_item_img">
-                                <img src="https://luizfelipe9627.github.io/awax/assets/icons/web.png">
+                                <img src="./assets/image/web.png" alt="Web" width="18" height="17">
                             </div>
                             www.awax.com
                         </div>
@@ -699,32 +807,42 @@
 
         <footer>
             <div class="default dark footer">
-            
                 <div class="section_footer">
                     <div class="section_social_media_footer">
-                        
                         <div class="section_twitter">
-                            <a href="" class="twitter_footer"><img src="https://luizfelipe9627.github.io/awax/assets/icons/twitter.png"></a>
+                            <a href="#twiiter" class="twitter_footer">
+                                <img src="./assets/image/twitter.png" alt="Twitter" width="15" height="12">
+                            </a>
                         </div>
 
                         <div class="section_linkedin">
-                            <a href="" class="linkedin_footer"><img src="https://luizfelipe9627.github.io/awax/assets/icons/linkedin.png"></a>
+                            <a href="#linkedin" class="linkedin_footer">
+                                <img src="./assets/image/linkedin.png" alt="Linkedin" width="14" height="13">
+                            </a>
                         </div>
 
                         <div class="section_facebook">
-                            <a href="" class="facebook_footer"><img src="https://luizfelipe9627.github.io/awax/assets/icons/facebook.png"></a>
+                            <a href="#facebook" class="facebook_footer">
+                                <img src="./assets/image/facebook.png" alt="Facebook" width="8" height="16">
+                            </a>
                         </div>
 
                         <div class="section_google_plus">
-                            <a href="" class="google_plus_footer"><img src="https://luizfelipe9627.github.io/awax/assets/icons/googleplus.png"></a>
+                            <a href="#google-plus" class="google_plus_footer">
+                                <img src="./assets/image/google-plus.png" alt="Google plus" width="17" height="15">
+                            </a>
                         </div>
 
                         <div class="section_pinterest">
-                            <a href="" class="pinterest_footer"><img src="https://luizfelipe9627.github.io/awax/assets/icons/pinterest.png"></a>
+                            <a href="#pinterest" class="pinterest_footer">
+                                <img src="./assets/image/pinterest.png" alt="Pinterest" width="13" height="16">
+                            </a>
                         </div>
                     </div>
 
-                    <div class="section_footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo sit amet malesuada posuere. In hac habitasse platea dictumst. Aliquam tempus at leo sit amet viverra. Phasellus rutrum enim imperdiet, semper nunc eu, accumsan enim. Mauris urna mi, congue non ex eget, condimentum placerat felis. Sed et condimentum ipsum. Nunc fringilla placerat odio quis interdum. Vestibulum porta, magna at suscipit posuere.</div>
+                    <div class="section_footer_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo sit amet malesuada posuere. In hac habitasse platea dictumst. Aliquam tempus at leo sit amet viverra. Phasellus rutrum enim imperdiet, semper nunc eu, accumsan enim. Mauris urna mi, congue non ex eget, condimentum placerat felis. Sed et condimentum ipsum. Nunc fringilla placerat odio quis interdum. Vestibulum porta, magna at suscipit posuere.
+                    </div>
 
                     <div class="section_footer_subscribe">
                         <div class="section_footer_email">
@@ -732,7 +850,7 @@
                         </div>
 
                         <div class="section_button">
-                            <a href="" class="button">Inscrever se</a>
+                            <a href="#inscrever-se" class="button">Inscrever se</a>
                         </div>
                     </div>
                 </div>
@@ -740,5 +858,5 @@
             </div>
         </footer>
     </body>
-    <script src="https://luizfelipe9627.github.io/awax/js/menu.js"></script>
+    <script src="./assets/js/script.min.js"></script>
 </html>

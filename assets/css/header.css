@@ -1,0 +1,138 @@
+header {
+  height: 6.25rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  max-width: 71.25rem;
+  height: 6.25rem;
+  margin:  auto;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.logo img {
+  margin-bottom: 1.0625rem;
+  width: 8.75rem;
+  height: 8.75rem;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_mobile {
+  display: none;
+}
+
+.menu ul, .menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li a {
+  color:  #FFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.75rem;
+  display: block;
+  padding: 0 10px;
+  height: 6.25rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.3125rem solid black;
+}
+
+.menu li a:hover,  .menu .active a {
+  border-bottom: 0.3125rem solid #b28756;
+  color: #CCC;
+}
+
+@media (min-width: 320px) and (max-width: 425px) { 
+  .logo {
+  margin-top: 0.875rem;
+  }
+
+  .menu_mobile {
+    display: block;
+    margin-right: 1.875rem;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0 , 0.9);
+    width: 80vw;
+    height: calc(100vh - 6.25rem);
+    top: 6.25rem;
+    right: 0;
+  }
+
+  .menu nav ul {
+    flex-direction: column;
+  }
+
+  .menu nav li a {
+    font-weight: bold;
+    height: 3.75rem;
+    font-size: 1.25rem;
+    margin-left: 1.875rem;
+    border: none;
+  }
+
+  .menu li.active a {
+    border: none;
+    color: #b28756;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) { 
+  .logo {
+    margin-top: 0.875rem;
+  }
+
+  .logo img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .menu_mobile {
+    display: block;
+    width: 2.8125rem;
+    margin-right: 1.875rem;
+  }
+  
+  nav {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0 , 0.9);
+    width: 70vw;
+    height: calc(100vh - 6.25rem);
+    top: 6.25rem;
+    right: 0;
+  }
+
+  .menu nav ul {
+    flex-direction: column;
+  }
+
+  .menu nav li a {
+    font-weight: bold;
+    height: 5rem;
+    font-size: 1.6875rem;
+    margin-left: 3.125rem;
+    border: none;
+  }
+
+  .menu li.active a {
+    border: none;
+    color: #b28756;
+  }
+}

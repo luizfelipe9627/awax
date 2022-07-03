@@ -1,0 +1,76 @@
+.section_aboutus {
+  display: flex;
+}
+
+.section_aboutus_left {
+  flex: 1;
+}
+
+.section_aboutus_left p {
+  font-size: 0.875rem;
+  line-height: 1.5625rem;
+}
+
+.section_aboutus_left .section_button {
+  align-items: left;
+}
+
+.section_aboutus_right {
+  width: 31.25rem;
+  text-align: center;
+}
+
+.section_aboutus_right img {
+  width: 30rem;
+  box-shadow: 0rem 0.3125rem 0.625rem #333;
+}
+
+.section_aboutus .section_button {
+  justify-content: left;
+}
+
+@media (min-width: 320px) and (max-width: 425px) { 
+  .section_aboutus {
+    flex-direction: column;
+  }
+
+  .section_aboutus_left {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .section_aboutus_right {
+    width: auto;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+  }
+
+  .section_aboutus_right img {
+    width: 100%;
+  }
+
+  .section_aboutus .section_button {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) { 
+  .section_aboutus {
+    flex-direction: column;
+  }
+
+  .section_aboutus_left {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .section_aboutus_right {
+    width: auto;
+  }
+
+  .section_aboutus .section_button {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,28 @@
+.section_companies {
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+  justify-content: center;
+  border-top: 0.0625rem solid #CCC;
+  border-bottom: 0.0625rem solid #CCC;
+}
+
+.section_company {
+  padding: 1.875rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) { 
+  .section_company {
+    padding: 2.5rem;
+  }
+
+  .section_companies {
+    padding-left: 2.1875rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) { 
+  .section_company {
+    padding: 1.875rem 3.125rem 1.25rem 3.125rem;
+  }
+}
