@@ -1,15 +1,15 @@
 # Awax
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/awax/blob/master/assets/videos/awax.gif" alt="Site">
+<img src="https://github.com/luizfelipe9627/awax/blob/master/assets/video/awax.gif" alt="Apresentação do Awax">
 
 ## 📄 Descrição
-Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedabacks de outros clientes, fatos sobre a empresa e como contratar serviços.
+Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedbacks de outros clientes, fatos sobre a empresa e como contratar serviços.
 
 ### <a href="https://luizfelipe9627.github.io/awax">Acesse o site</a>
 
 ## 📑 Observação
-Como segundo projeto foi proposto clonar um layout do zero. Foi práticado muito flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
+Como segundo projeto foi proposto clonar um layout do zero. Foi praticado muito Flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
 
 ## 🔍 Layout
 Este layout foi criado por Alexandr Bukin.
