@@ -6,7 +6,7 @@
 ## 📄 Descrição
 Awax é um site de serviços na qual o cliente conhecerá a equipe, principais projetos, preços de  serviços, feedbacks de outros clientes, fatos sobre a empresa e como contratar serviços.
 
-### <a href="https://luizfelipe9627.github.io/awax">Acesse o site</a>
+### <a href="https://luizfelipe9627-awax.netlify.app">Acesse o site</a>
 
 ## 📑 Observação
 Como segundo projeto foi proposto clonar um layout do zero. Foi praticado muito Flexbox, e claro os conhecimentos de aulas anteriores incluindo responsividade.
