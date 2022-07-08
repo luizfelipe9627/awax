@@ -18,6 +18,11 @@
 
   .section_companies {
     padding-left: 2.1875rem;
+    overflow-x: hidden;
+  }
+
+  .section_company a:nth-child(n + 5) {
+    background-color: aqua;
   }
 }
 

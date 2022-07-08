@@ -63,6 +63,7 @@
   .default.dark.footer {
     padding: 1.25rem 0 0 0;
     width: 100vw;
+    height: auto;
   }
 
   .section_footer {
@@ -97,6 +98,7 @@
     display: flex;
     justify-content: center;
     margin: auto 0;
+    padding-bottom: 1.25rem;
   }
 }
 
