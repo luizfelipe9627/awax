@@ -91,6 +91,10 @@ input::placeholder {
     justify-content: center;
   }
 
+  form label:last-child {
+    flex-direction: row;
+  }
+
   .nome, .email, .assunto, .mensagem {
     margin: 1.875rem;
     padding: 0 0 0.4375rem 0;
