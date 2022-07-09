@@ -32,7 +32,7 @@
 .section_footer_copy {
   color: #FFF;
   font-weight: 600;
-  margin: 0 0 20px 100px;
+  margin: 0 0 1.25rem 6.25rem;
 }
 
 .section_footer_text {
@@ -62,51 +62,45 @@
 
 @media (min-width: 320px) and (max-width: 425px) { 
   .default.dark.footer {
-    padding: 1.25rem 0 0 0;
+    padding: 1.875rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     width: 100vw;
     height: auto;
   }
 
   .section_footer {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
   .section_social_media_footer {
-    margin: 11.875rem 40vw -15vh 0;
-    padding-left: 7.5rem;
-    height: 30vw;
-  }
-
-  .section_footer_text {
-    flex-wrap: wrap;
-    margin-top: 15.625rem;
-    margin: 0 3.75rem 1.25rem 3.75rem;
     padding: 0;
   }
 
   .section_footer_subscribe {
-    position: absolute;
-    margin: 0.625rem 0 0 0;
-    width: 100vw;
+    margin: 0;
+  }
+
+  .section_footer_text {
+   padding: 1.25rem 3.75rem;
   }
 
   .section_footer_copy {
-    display: flex;
-    justify-content: center;
-    margin: auto 0;
-    padding-bottom: 1.25rem;
+    margin: 1.25rem 30% 0 40%;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) { 
   .default.dark.footer {
-    height: 44vh;
+    height: 25vh;
   }
 
   .section_social_media_footer {
     flex-direction: column;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 2.5rem;
   }
 
   .section_twitter, .section_linkedin, .section_facebook, .section_google_plus {
@@ -119,15 +113,15 @@
 
   .section_footer_text {
     min-width: 18.75rem;
-    padding: 0 10px 0 30px;
+    padding: 0 0.625rem 0 1.875rem;
   }
 
   .section_footer_subscribe {
-    margin: 0 20px;
+    margin: 0 2.5rem;
 }
 
   .section_footer_copy {
     text-align: right;
-    margin: 0.9375rem 6rem 0 0;
+    margin: 0.9375rem 7.5rem 0 0;
   }
 }
