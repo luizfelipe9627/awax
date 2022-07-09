@@ -763,22 +763,24 @@
                     <div class="section_title">Contate-nos</div>
                     <div class="section_desc">Nossa agência está localizada em Melbourne, Australia</div>
 
-                    <div class="section_input">
-                        <input type="text" class="nome" placeholder="nome" required>
-                        <input type="email" class="email" placeholder="email" required>
-                    </div>
-
-                    <div class="section_input">
-                        <input type="text" class="assunto" placeholder="assunto" required>
-                    </div>
-
-                    <div class="section_input">
-                        <input type="text" class="mensagem" placeholder="mensagem" required>
-                    </div>
-
-                    <div class="section_button">
-                        <a href="#enviar-mensagem" class="button">Enviar mensagem</a>
-                    </div>
+                    <form method="get" id="contate-form">
+                        <label for="contate-form">
+                            <input type="text" class="nome" placeholder="nome" required>
+                            <input type="email" class="email" placeholder="email" required>
+                        </label>
+    
+                        <label for="contate-form">
+                            <input type="text" class="assunto" placeholder="assunto" required>
+                        </label>
+    
+                        <label for="contate-form">
+                            <input type="text" class="mensagem" placeholder="mensagem" required>
+                        </label>
+    
+                        <label for="contate-form">
+                            <button type="submit" class="button">Enviar mensagem</button>
+                        </label>
+                    </form> 
                 </div>
             </section>
 
@@ -862,13 +864,15 @@
                     <div class="section_footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo sit amet malesuada posuere. In hac habitasse platea dictumst. Aliquam tempus at leo sit amet viverra. Phasellus rutrum enim imperdiet, semper nunc eu, accumsan enim. Mauris urna mi, congue non ex eget, condimentum placerat felis. Sed et condimentum ipsum. Nunc fringilla placerat odio quis interdum. Vestibulum porta, magna at suscipit posuere.</div>
 
                     <div class="section_footer_subscribe">
-                        <div class="section_footer_email">
-                            <input type="email" class="subscribe" placeholder="Digite seu email">
-                        </div>
-
-                        <div class="section_button">
-                            <a href="#inscrever-se" class="button">Inscrever se</a>
-                        </div>
+                        <form method="get" id="inscrever-form">
+                            <label for="inscrever-form" class="section_footer_email">
+                                <input type="email" class="subscribe" placeholder="Digite seu email" required>
+                            </label>
+                            
+                            <label for="inscrever-form" class="section_button">
+                                <button type="submit" class="button">Inscrever se</button>
+                            </label>
+                        </form>
                     </div>
                 </div>
                 
