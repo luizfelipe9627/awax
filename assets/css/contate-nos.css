@@ -8,6 +8,10 @@
   padding-right: 3.125rem;
 }
 
+.nome, .email {
+  margin-bottom: 1.5625rem;
+}
+
 .email  {
   padding-right: 3.75rem;
 }
