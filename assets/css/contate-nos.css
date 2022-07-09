@@ -85,7 +85,7 @@ input::placeholder {
 }
 
 @media (min-width: 320px) and (max-width: 425px) { 
-  .section_input {
+  label {
     display: flex;
     flex-direction: column;
     justify-content: center;

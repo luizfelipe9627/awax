@@ -57,7 +57,7 @@ header {
   color: #CCC;
 }
 
-@media (min-width: 320px) and (max-width: 425px) { 
+@media (min-width: 320px) and (max-width: 425px) {
   .logo {
   margin-top: 0.875rem;
   }
