@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=0">
-        <link rel="stylesheet" href="./assets/css/style.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <title>Awax</title>
@@ -758,28 +758,22 @@
                 </div>
             </section>
 
-            <section id="contate-nos" aria-label="Contate-nos">
+            <section id="contate-nos" class="contate-nos" aria-label="Contate-nos">
                 <div class="default light">
                     <div class="section_title">Contate-nos</div>
                     <div class="section_desc">Nossa agência está localizada em Melbourne, Australia</div>
 
-                    <form method="get" id="contate-form">
-                        <label for="contate-form">
-                            <input type="text" class="nome" placeholder="nome" required>
-                            <input type="email" class="email" placeholder="email" required>
-                        </label>
-    
-                        <label for="contate-form">
-                            <input type="text" class="assunto" placeholder="assunto" required>
-                        </label>
-    
-                        <label for="contate-form">
-                            <input type="text" class="mensagem" placeholder="mensagem" required>
-                        </label>
-    
-                        <label for="contate-form">
-                            <button type="submit" class="button">Enviar mensagem</button>
-                        </label>
+                    <form method="get">
+                        <div class="nome-email">
+                            <input type="text" placeholder="nome" required>
+                            <input type="email" placeholder="email" required>
+                        </div>
+                        
+                        <input type="text" placeholder="assunto" required>
+
+                        <textarea placeholder="mensagem" cols="35" rows="5"></textarea>
+ 
+                        <button type="submit" class="button">Enviar mensagem</button>
                     </form> 
                 </div>
             </section>
@@ -864,14 +858,9 @@
                     <div class="section_footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla leo sit amet malesuada posuere. In hac habitasse platea dictumst. Aliquam tempus at leo sit amet viverra. Phasellus rutrum enim imperdiet, semper nunc eu, accumsan enim. Mauris urna mi, congue non ex eget, condimentum placerat felis. Sed et condimentum ipsum. Nunc fringilla placerat odio quis interdum. Vestibulum porta, magna at suscipit posuere.</div>
 
                     <div class="section_footer_subscribe">
-                        <form method="get" id="inscrever-form">
-                            <label for="inscrever-form" class="section_footer_email">
-                                <input type="email" class="subscribe" placeholder="Digite seu email" required>
-                            </label>
-                            
-                            <label for="inscrever-form" class="section_button">
-                                <button type="submit" class="button">Inscrever se</button>
-                            </label>
+                        <form method="get">
+                            <input type="email" class="subscribe" placeholder="Digite seu email" required>
+                            <button type="submit" class="button">Inscrever se</button>
                         </form>
                     </div>
                 </div>
