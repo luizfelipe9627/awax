@@ -52,6 +52,22 @@
   border-radius: 0.125rem;
 }
 
+.section_footer_subscribe input {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #b6b6b6;
+  outline: none;
+  text-align: center;
+  padding-bottom: 0.625rem;
+}
+
+.section_footer_subscribe input::placeholder {
+  text-transform: uppercase;
+  color: #b6b6b6;
+}
+
 .subscribe {
   color: white;
 }

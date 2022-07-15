@@ -1,42 +1,33 @@
-label {
+.contate-nos form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.nome {
-  margin-right: 1.25rem;
-  padding-right: 3.125rem;
-}
-
-.nome, .email {
-  margin-bottom: 1.5625rem;
-}
-
-.email  {
-  padding-right: 3.75rem;
-}
-
-input {
+.contate-nos input, .contate-nos textarea {
   background-color: transparent;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-color: #b6b6b6;
-  padding-bottom: 0.4375rem;
+  border-bottom: 0.125rem solid #b6b6b6;
   outline: none;
+  padding: 0.625rem;
+  margin: 1.25rem;
+  width: 39vw;
 }
 
-input::placeholder {
+.contate-nos input::placeholder, .contate-nos textarea::placeholder {
   text-transform: uppercase;
   color: #b6b6b6;
 }
 
-.assunto {
-  padding: 2.5rem 19.1875rem 0 0;
+.nome-email input {
+  width: 18vw;
+  margin-bottom: 1.875rem;
 }
 
-.mensagem {
-  padding: 5rem 19.1875rem 0 0;
+.nome-email input[type="text"] {
+  margin-right: 0.9375rem;
 }
 
 .section_map {
@@ -85,23 +76,14 @@ input::placeholder {
 }
 
 @media (min-width: 320px) and (max-width: 425px) { 
-  label {
+  .contate-nos input, .contate-nos textarea, .nome-email input {
     display: flex;
+    width: 80vw;
     flex-direction: column;
-    justify-content: center;
   }
 
-  form label:last-child {
-    flex-direction: row;
-  }
-
-  .nome, .email, .assunto, .mensagem {
-    margin: 1.875rem;
-    padding: 0 0 0.4375rem 0;
-  }
-
-  .mensagem {
-    margin-bottom: 0;
+  .nome-email input:nth-child(1) {
+    margin-bottom: 2.5rem;
   }
 
   .section_map {
@@ -114,5 +96,15 @@ input::placeholder {
     padding: 1.875rem;
     margin-left: -6.25rem;
     overflow-x: hidden;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .nome-email input {
+    width: 30vw !important;
+  }
+
+  .contate-nos input, .contate-nos textarea {
+    width: 66vw;
   }
 }
